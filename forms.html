@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>A form</h1>
+    <form action="basic.html" method="GET">
+        <h2>Registration form</h2>
+
+        <label for="emalitag">Enter email: </label>
+        <input type="email" name="useremail" id="emalitag" placeholder="type email...">
+
+        <label for="passtag">Enter password: </label>
+        <input type="password" name="userpass" id="passtag" placeholder="type password...">
+
+        <p>Do you have a dog? </p>
+        <label for="yes">Yes: </label>
+        <input type="radio" id="yes" name="dog_choice" value="yes">
+        
+        <label for="no">No: </label>
+        <input type="radio" id="no" name="dog_choice" value="no">
+
+        <p>How good is your html? (1-3)</p>
+        <select name="rating">
+            <option value="Great">Expert</option>
+            <option value="Good">Intermediate</option>
+            <option value="Bad">Beginner</option>
+        </select><br><br>
+
+        <textarea name="name" cols="30" rows="10" placeholder="enter any comments here...">
+
+        </textarea>
+
+        <br><br><input type="submit" name="" id="" value="Submit Feedback">
+
+    </form>
+</body>
+</html>
